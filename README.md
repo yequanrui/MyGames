@@ -1,2 +1,2 @@
-# Games
-The game collections
+# MyGames
+The collections of my game
