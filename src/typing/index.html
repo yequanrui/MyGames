@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>打字游戏</title>
+    <meta name="google-site-verification" content="pLPl8oqL0Adf4p5s9zT-pXnpfF-2TMlOTEjoDl7DpSY" />
+    <meta name="baidu-site-verification" content="code-gZR6EVVpaO" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <button id="settings-btn" class="settings-btn">⚙️</button>
+    <div id="settings" class="settings">
+      <form id="settings-form">
+        <div>
+          <label for="difficulty">难度：</label>
+          <select id="difficulty">
+            <option value="easy">容易</option>
+            <option value="medium">中等</option>
+            <option value="hard">困难</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <div class="container">
+      <h2>👩‍💻 快速打字员 👨‍💻</h2>
+      <small>请输入以下单词:</small>
+      <h1 id="word"></h1>
+      <input type="text" id="text" autocomplete="off" placeholder="在此处键入单词..." autofocus />
+      <p class="time-container">剩余时间：<span id="time">10s</span></p>
+      <p class="score-container">分数：<span id="score">0</span></p>
+      <div id="end-game-container" class="end-game-container"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
